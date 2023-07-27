@@ -1,0 +1,26 @@
+1. Google chrome:
+Layout engine: Blink
+JS Engine: v8
+
+2. Firefox:
+Layout engine: Gecko
+JS Engine: SpiderMonkey
+
+3. Edge:
+Layout engine: Trident
+JS Engine: Chakra
+
+After 2009, ryan dahl take the source code of v8 and he made to run that js engine outside the browser by creating a particular
+environment known as NODEJS
+
+NodeJS: JS runtime environment to run JS outside the browser
+
+// VS Code is a NodejS Application
+
+Nodejs:-
+ 1. Can access, or work with the file system
+ 2. in browser, the global object is window object but in NodeJS global object is global object only
+ 3. in browser, we have dom api but no dom api in node js
+ 
+
+ Note: Modulas operation is very costly operation. (You can observe this is in microprocessor)
