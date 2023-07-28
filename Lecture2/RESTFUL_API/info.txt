@@ -1,0 +1,7 @@
+REST
+
+Representational state transfer
+ 
+ -> software architectural style which governs the interaction b/w client and server
+
+ REST ---> 

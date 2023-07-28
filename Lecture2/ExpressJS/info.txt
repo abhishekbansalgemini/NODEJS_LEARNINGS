@@ -1,0 +1,3 @@
+Static files in Express
+
+We have something called public folder to serve static files

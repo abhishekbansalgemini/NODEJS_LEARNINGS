@@ -1,0 +1,9 @@
+<%= %> tag is used to evaluate any expresssion
+
+<% %> tag is used to evaluate JS expresssions   
+
+We should not write heavy logic inside our ejs file
+
+Static files in Express
+
+We have something called public folder to serve static files

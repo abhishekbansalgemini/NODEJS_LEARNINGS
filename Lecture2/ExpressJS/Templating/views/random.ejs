@@ -1,0 +1,10 @@
+<%- include("./partials/header") %>
+    <!-- <h1>My favourite Random Number <%= Math.floor(Math.random()*100)   %></h1> -->
+    <h1>My favourite Random Number <%= randomnumber  %></h1>
+    <h1>If else statements</h1>
+    <% if(randomnumber % 2== 0){ %>
+        <h1>Even</h1>
+    <% } else{ %>
+        <h1>Odd </h1>
+    <% } %>
+    <%- include("./partials/footer") %>
