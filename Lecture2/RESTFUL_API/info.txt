@@ -4,4 +4,14 @@ Representational state transfer
  
  -> software architectural style which governs the interaction b/w client and server
 
- REST ---> 
+ REST ---> Restful Routes && Rest APi
+
+ in RestFul Routes: We render a whole page... like we make request at /user and it will render the whole page.
+
+ In Rest API: API are nothing but the URLs on which we make the request and it give us back some data  
+
+
+ // PUT vs PATCH
+
+// let suppose we want to update the comments, if we want to replace the whole comment with the new comment, we use put 
+request otherwise we will use patch request

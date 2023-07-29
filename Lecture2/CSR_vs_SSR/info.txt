@@ -1,0 +1,7 @@
+Client Side Rendering (CSR)
+
+// Page will not refresh in this case
+// It will not going to work, if you disable JS from the browser but SSR works fine in this case as well
+// in most of the websites, js is disbaled dueto security reason or hacking 
+
+Server Side Rendering (SSR)
