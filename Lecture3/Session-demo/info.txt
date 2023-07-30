@@ -1,0 +1,14 @@
+// Sessions
+
+// Server Side Storage
+
+Store data in form of key-value pairs
+
+Inside program memory, there is memory for sessions
+
+when you send request from client to server, suppose you are requesting at abc.com, then in response server send the cookie
+in which session id is stored and that session id will get store inside the browser
+
+ as we know, cookies are sent with each subsequent request when we set them once. so if one user hits differnt route then
+ cookie will sent with that request containing some data and session id to the server and server has stored all the session ids 
+ in a program memory from where he match that session id and perform specific task
