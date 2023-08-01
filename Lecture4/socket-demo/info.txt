@@ -1,0 +1,25 @@
+Sockets (Real time communication);
+
+// We can take an example of chat application where real time communication is taking place 
+
+We have something called Socket.io (Bidirectional and low-latency communication for every platform)
+
+Till now what we have seen is that, we have a client and a server. an http request is sent from the client side and a response
+is send back to client from server side. If there is not response then browser get keep on hanging
+
+But in case of chat applications, if one user sending the message to another user, then it is not necessary that another user
+should send the response of that message.
+
+// SO here that typical client-server architecture won't work. So we use sockets in this case
+
+// Till now we are creating server using express (which follows client-server architecture) so we can't use that now
+
+// so we create server using http.createServer(). This server is based on events 
+// communication takes place on the basis of events
+
+// suppose you emit an event, then you got response from the server
+
+// As soon as you use socket.io that http protocol now behave as socket protocol
+
+// path from 1 user to another user get fixed once connection get established b/w two nodes in case of socket.io. (in case of http server path is not fixed so it takes more time)
+// That's why communication get very fast using socket.io
